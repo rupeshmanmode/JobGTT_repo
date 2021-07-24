@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49030" started-at="2021-07-23T02:30:37Z" finished-at="2021-07-23T02:31:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49030" started-at="2021-07-23T02:30:37Z" finished-at="2021-07-23T02:31:26Z">
+      <class name="com.hrms.testscripts.TC001">
+        <test-method status="PASS" signature="testLoginLogout()[pri:1, instance:com.hrms.testscripts.TC001@2038ae61]" name="testLoginLogout" duration-ms="12674" started-at="2021-07-23T08:00:37Z" finished-at="2021-07-23T08:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+      </class> <!-- com.hrms.testscripts.TC001 -->
+      <class name="com.hrms.testscripts.TC002">
+        <test-method status="PASS" signature="testAddUser()[pri:2, instance:com.hrms.testscripts.TC002@60c6f5b]" name="testAddUser" duration-ms="21816" started-at="2021-07-23T08:00:50Z" finished-at="2021-07-23T08:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+      </class> <!-- com.hrms.testscripts.TC002 -->
+      <class name="com.hrms.testscripts.TC003">
+        <test-method status="PASS" signature="testDeleteUser()[pri:3, instance:com.hrms.testscripts.TC003@7e0b0338]" name="testDeleteUser" duration-ms="14493" started-at="2021-07-23T08:01:12Z" finished-at="2021-07-23T08:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- com.hrms.testscripts.TC003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC001">
+        <methods>
+          <include name="testLoginLogout"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001 -->
+      <class name="com.hrms.testscripts.TC003">
+        <methods>
+          <include name="testDeleteUser"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC003 -->
+      <class name="com.hrms.testscripts.TC002">
+        <methods>
+          <include name="testAddUser"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
